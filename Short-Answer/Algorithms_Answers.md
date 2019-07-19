@@ -18,7 +18,7 @@ b)  sum = 0
             l += 1
             sum += 1
 ```
-above is a O(n^4) level algorithm
+above is a O(n^3) level algorithm
 
 c)  def bunnyEars(bunnies):
       if bunnies == 0:
@@ -34,3 +34,5 @@ Write out your proposed algorithm in plain English or pseudocode and give the ru
 
 
 either keep all the eggs at the Floor level lower than _f_ or don't drop the eggs, also if I have to go above _f_ level, need to make sure I have a bigger container that will retain all the eggs.
+
+runtime O(log n)
