@@ -5,7 +5,7 @@ a)  a = 0
     while (a < n * n * n):
       a = a + n * n
 ```
-above is a O(n) level Algorithems
+above is a O(n) level Algorithm
 
 b)  sum = 0
     for i in range(n):
@@ -18,7 +18,7 @@ b)  sum = 0
             l += 1
             sum += 1
 ```
-above is a O(n^4) level algorithems
+above is a O(n^4) level algorithm
 
 c)  def bunnyEars(bunnies):
       if bunnies == 0:
@@ -26,7 +26,7 @@ c)  def bunnyEars(bunnies):
 
       return 2 + bunnyEars(bunnies-1)
 
-above is a O(n) level algorithems 
+above is a O(n) level algorithm 
 
 Suppose that you have an _n_-story building and plenty of eggs. Suppose also that an egg gets broken if it is thrown off floor _f_ or higher, and doesn't get broken if dropped off a floor less than floor _f_. Devise a strategy to determine the value of _f_ such that the number of dropped eggs is minimized.
 
